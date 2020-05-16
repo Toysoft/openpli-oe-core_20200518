@@ -8,5 +8,3 @@ do_install_append() {
 }
 
 FILES_${PN} += " ${sysconfdir}/udev/rules.d/98-dbox-devices.rules "
-
-INITSCRIPT_PARAMS_eudev = "stop 04 S ."
